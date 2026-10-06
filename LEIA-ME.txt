@@ -1,0 +1,20 @@
+CURY 360° PARK VIEW — NETLIFY
+================================
+
+Este pacote usa Netlify Functions + Netlify Blobs.
+Não usa Supabase.
+
+PUBLICAÇÃO RECOMENDADA
+1. Descompacte este ZIP.
+2. Coloque a pasta em um repositório GitHub (ou importe o repositório no Netlify).
+3. No Netlify, crie/importa o projeto a partir do repositório.
+4. O Netlify instalará @netlify/blobs e publicará a Function automaticamente.
+5. Abra o site e teste o botão SALVAR DADOS.
+
+IMPORTANTE
+- Netlify Blobs é armazenamento do próprio Netlify.
+- Os dados ficam no store "cury-360pv", chave "dados".
+- O navegador mantém uma cópia local de segurança.
+- Se duas pessoas alterarem exatamente ao mesmo tempo, a última gravação pode prevalecer.
+- O deploy manual por arrastar apenas arquivos estáticos pode não instalar a dependência npm;
+  por isso, para esta versão com Function, use deploy via Git/repositório.
